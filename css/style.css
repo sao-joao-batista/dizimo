@@ -52,6 +52,12 @@
   color: ivory;
   margin-left: 130px;
 }
+.formulario button:hover {
+  background: #f6db5b;
+  color: #f79522;
+  border: 5px solid #f79522;
+}
+
 .pastoral {
   background: linear-gradient(var(--azul1), var(--azul2)),
     url(/img/bg/conchas-bg.svg);
