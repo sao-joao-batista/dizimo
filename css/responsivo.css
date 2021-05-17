@@ -67,6 +67,9 @@
 }
 
 @media only screen and (max-width: 787px) {
+  .header {
+    height: 1380px;
+  }
   .header img {
     margin: 30px auto;
   }
@@ -81,7 +84,7 @@
   }
   .wave::before {
     background: url(/img/bg/wave-phone.svg) no-repeat;
-    top: 1091px;
+    top: 1221px;
   }
   .pastoral {
     height: 2400px;
@@ -93,8 +96,8 @@
     width: 290px;
     height: 400px;
     padding-top: 5px;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .dimensoes li {
     width: 300px;
@@ -136,7 +139,7 @@
   .wave-2::before {
     background: url(/img/bg/wave-2-phone.svg) no-repeat;
     width: 100%;
-    top: 3470px;
+    top: 3580px;
   }
   .copy {
     text-align: center;

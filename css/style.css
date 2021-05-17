@@ -50,7 +50,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: ivory;
-  margin-left: 130px;
+  margin-left: 110px;
 }
 .formulario button:hover {
   background: #f6db5b;
@@ -92,8 +92,8 @@
 }
 .dimensoes p {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 24px;
+  line-height: 30px;
   width: 360px;
   height: 200px;
   padding: 20px 20px 20px 20px;
@@ -167,9 +167,15 @@
 .informacoes p,
 .contato ul li {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: lighter;
   color: #484b4d;
+  margin-bottom: 10px;
+}
+
+.contato h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 .historia h2::after {
   content: "";
@@ -178,6 +184,10 @@
   display: block;
   background: currentColor;
   margin-bottom: 15px;
+}
+.historia img {
+  width: 200px;
+  height: 200px;
 }
 .contato h2::after {
   content: "";
