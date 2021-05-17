@@ -6,7 +6,7 @@
 }
 .header {
   background: linear-gradient(var(--vermelho1), var(--vermelho2)),
-    url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/main-bg.svg);
+    url(/lp-pastoraldizimo/img/bg/main-bg.svg);
   height: 1250px;
   background-blend-mode: multiply;
 }
@@ -54,7 +54,7 @@
 }
 .pastoral {
   background: linear-gradient(var(--azul1), var(--azul2)),
-    url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/conchas-bg.svg);
+    url(/lp-pastoraldizimo/img/bg/conchas-bg.svg);
   height: 100%;
   width: 100%;
   background-blend-mode: lighten;
@@ -67,8 +67,7 @@
 }
 .wave::before {
   content: "";
-  background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/wave.svg)
-    no-repeat;
+  background: url(/lp-pastoraldizimo/img/bg/wave.svg) no-repeat;
   position: absolute;
   width: 100%;
   height: 350px;
@@ -111,7 +110,7 @@
 }
 .box1::before {
   content: "";
-  background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/icones/icone-religiosa.svg);
+  background: url(/lp-pastoraldizimo/img/icones/icone-religiosa.svg);
   display: block;
   position: absolute;
   height: 160px;
@@ -121,7 +120,7 @@
 }
 .box2::before {
   content: "";
-  background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/icones/icone-social.svg);
+  background: url(/lp-pastoraldizimo/img/icones/icone-social.svg);
   display: block;
   position: absolute;
   height: 160px;
@@ -131,7 +130,7 @@
 }
 .box3::before {
   content: "";
-  background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/icones/icone-missionaria.svg);
+  background: url(/lp-pastoraldizimo/img/icones/icone-missionaria.svg);
   display: block;
   position: absolute;
   height: 160px;
@@ -141,7 +140,7 @@
 }
 .box4::before {
   content: "";
-  background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/icones/icone-eclesial.svg);
+  background: url(/lp-pastoraldizimo/img/icones/icone-eclesial.svg);
   display: block;
   position: absolute;
   height: 160px;
@@ -199,8 +198,7 @@
 }
 .wave-2::before {
   content: "";
-  background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/wave-2.svg)
-    no-repeat;
+  background: url(/lp-pastoraldizimo/img/bg/wave-2.svg) no-repeat;
   position: absolute;
   width: 100%;
   height: 300px;
@@ -219,7 +217,7 @@
 }
 .copy::after {
   content: "";
-  background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/logos/ego.png);
+  background: url(/lp-pastoraldizimo/img/logos/ego.png);
   width: 93px;
   height: 40px;
   display: block;
