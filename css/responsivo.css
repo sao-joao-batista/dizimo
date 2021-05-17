@@ -80,7 +80,10 @@
   }
   .wave::before {
     background: url(/img/bg/wave-phone.svg) no-repeat;
-    top: 1090px;
+    top: 1091px;
+  }
+  .pastoral{
+    background: height: 2460px;;
   }
   .pastoral img {
     margin: -240px 0px 140px 0px;
@@ -89,43 +92,45 @@
     width: 290px;
     height: 400px;
     padding-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .dimensoes li {
     width: 300px;
   }
   .dimensoes li:nth-child(odd) {
-    margin: 0 0px 80px -75px;
+    margin: 0 0px 80px -30px;
   }
   .dimensoes li:nth-child(even) {
-    margin: 20px 0px 80px 75px;
+    margin: 20px 0px 80px 30px;
   }
   .box1::before {
     background: url(/img/icones/icone-religiosa-phone.svg);
     width: 130px;
     height: 130px;
     top: -75px;
-    right: 160px;
+    right: 10px;
   }
   .box2::before {
     background: url(/img/icones/icone-social-phone.svg);
     width: 130px;
     height: 130px;
     top: 410px;
-    right: 5px;
+    right: 55px;
   }
   .box3::before {
     background: url(/img/icones/icone-missionaria-phone.svg);
     width: 130px;
     height: 130px;
     top: 890px;
-    right: 170px;
+    right: 120px;
   }
   .box4::before {
     background: url(/img/icones/icone-eclesial-phone.svg);
     width: 130px;
     height: 130px;
     top: 1370px;
-    right: 5px;
+    right: 55px;
   }
   .wave-2::before {
     background: url(/img/bg/wave-2-phone.svg) no-repeat;
