@@ -110,7 +110,7 @@
 }
 .box1::before {
   content: "";
-  background: url(/lp-pastoraldizimo/img/icones/icone-religiosa.svg);
+  background: url(/img/icones/icone-religiosa.svg);
   display: block;
   position: absolute;
   height: 160px;
