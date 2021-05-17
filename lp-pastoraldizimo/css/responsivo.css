@@ -18,12 +18,13 @@
     margin-left: 110px;
   }
   .wave::before {
-    background: url(/joao-batista/lp-dizimo/img/bg/wave-tablet.svg) no-repeat;
+    background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/wave-tablet.svg)
+      no-repeat;
     top: 822px;
   }
   .pastoral {
     background: linear-gradient(var(--azul1), var(--azul2)),
-      url(/joao-batista/lp-dizimo/img/bg/conchas-bg-tablet.svg);
+      url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/conchas-bg-tablet.svg);
   }
   .pastoral img {
     margin-top: -222px;
@@ -51,7 +52,8 @@
     right: 110px;
   }
   .wave-2::before {
-    background: url(/joao-batista/lp-dizimo/img/bg/wave-2-tablet.svg) no-repeat;
+    background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/wave-2-tablet.svg)
+      no-repeat;
     top: 2500px;
   }
   .informacoes h2 {
@@ -79,7 +81,8 @@
     margin-left: 70px;
   }
   .wave::before {
-    background: url(/joao-batista/lp-dizimo/img/bg/wave-phone.svg) no-repeat;
+    background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/wave-phone.svg)
+      no-repeat;
     top: 1090px;
   }
   .pastoral img {
@@ -100,35 +103,36 @@
     margin: 20px 0px 80px 75px;
   }
   .box1::before {
-    background: url(/joao-batista/lp-dizimo/img/icones/icone-religiosa-phone.svg);
+    background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/icones/icone-religiosa-phone.svg);
     width: 130px;
     height: 130px;
     top: -75px;
     right: 160px;
   }
   .box2::before {
-    background: url(/joao-batista/lp-dizimo/img/icones/icone-social-phone.svg);
+    background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/icones/icone-social-phone.svg);
     width: 130px;
     height: 130px;
     top: 410px;
     right: 5px;
   }
   .box3::before {
-    background: url(/img/icones/icone-missionaria-phone.svg);
+    background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/icones/icone-missionaria-phone.svg);
     width: 130px;
     height: 130px;
     top: 890px;
     right: 170px;
   }
   .box4::before {
-    background: url(/joao-batista/lp-dizimo/img/icones/icone-eclesial-phone.svg);
+    background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/icones/icone-eclesial-phone.svg);
     width: 130px;
     height: 130px;
     top: 1370px;
     right: 5px;
   }
   .wave-2::before {
-    background: url(/joao-batista/lp-dizimo/img/bg/wave-2-phone.svg) no-repeat;
+    background: url(/joao-batista-lagoa/lp-pastoraldizimo/img/bg/wave-2-phone.svg)
+      no-repeat;
     width: 100%;
     top: 3590px;
   }
