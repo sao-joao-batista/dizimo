@@ -1,0 +1,227 @@
+:root {
+  --vermelho1: #ba1c2c;
+  --vermelho2: #f0383b;
+  --azul1: #24599a;
+  --azul2: #17aad7;
+}
+.header {
+  background: linear-gradient(var(--vermelho1), var(--vermelho2)),
+    url(/joao-batista/lp-dizimo/img/bg/main-bg.svg);
+  height: 1250px;
+  background-blend-mode: multiply;
+}
+.header img {
+  margin: 20px 0 130px 240px;
+}
+
+.chamada {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 480px;
+  margin-right: 60px;
+  color: white;
+}
+
+.chamada h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+.chamada p {
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+.formulario {
+  max-width: 400px;
+}
+.formulario input {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 40px;
+  width: 400px;
+  border: 3px solid #f6db5b;
+}
+.formulario button {
+  padding: 15px 40px;
+  background-color: #f79522;
+  border: 5px solid #f6db5b;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: ivory;
+  margin-left: 130px;
+}
+.pastoral {
+  background: linear-gradient(var(--azul1), var(--azul2)),
+    url(/joao-batista/lp-dizimo/img/bg/conchas-bg.svg);
+  height: 100%;
+  width: 100%;
+  background-blend-mode: lighten;
+}
+.pastoral img {
+  display: block;
+  margin-left: 300px;
+  margin-bottom: 140px;
+  margin-top: -320px;
+}
+.wave::before {
+  content: "";
+  background: url(/joao-batista/lp-dizimo/img/bg/wave.svg) no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  top: 900px;
+}
+.dimensoes {
+  margin-bottom: 250px;
+}
+.dimensoes h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 70px;
+}
+.dimensoes p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  width: 360px;
+  height: 200px;
+  padding: 20px 20px 20px 20px;
+}
+
+.dimensoes li {
+  background-color: #f79522;
+  height: 400px;
+  width: 365px;
+  border-radius: 30px;
+}
+.dimensoes li:nth-child(odd) {
+  margin-right: 140px;
+  margin-bottom: 165px;
+  box-shadow: 5px 5px 2em rgba(34, 34, 34, 0.5);
+}
+.dimensoes li:nth-child(even) {
+  margin-top: 240px;
+  box-shadow: 5px 5px 2em rgba(34, 34, 34, 0.5);
+}
+.box1::before {
+  content: "";
+  background: url(/joao-batista/lp-dizimo/img/icones/icone-religiosa.svg);
+  display: block;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  top: -110px;
+  right: 685px;
+}
+.box2::before {
+  content: "";
+  background: url(/joao-batista/lp-dizimo/img/icones/icone-social.svg);
+  display: block;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  top: 140px;
+  right: 170px;
+}
+.box3::before {
+  content: "";
+  background: url(/joao-batista/lp-dizimo/img/icones/icone-missionaria.svg);
+  display: block;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  top: 530px;
+  right: 685px;
+}
+.box4::before {
+  content: "";
+  background: url(/joao-batista/lp-dizimo/img/icones/icone-eclesial.svg);
+  display: block;
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  top: 775px;
+  right: 170px;
+}
+.informacoes {
+  margin-bottom: 50px;
+}
+.informacoes h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #484b4d;
+}
+.informacoes p,
+.contato ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #484b4d;
+}
+.historia h2::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  display: block;
+  background: currentColor;
+  margin-bottom: 15px;
+}
+.contato h2::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  display: block;
+  background: currentColor;
+  margin-bottom: 15px;
+}
+.redes h2 {
+  font-size: 40px;
+}
+.redes img {
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.redes h2::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  display: block;
+  background: currentColor;
+  margin-bottom: 15px;
+}
+.wave-2::before {
+  content: "";
+  background: url(/joao-batista/lp-dizimo/img/bg/wave-2.svg) no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  top: 2900px;
+}
+.footer {
+  background-color: #4272c1;
+  width: 100%;
+  padding: 20px;
+}
+.footer p {
+  font-size: 1em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  font-weight: lighter;
+}
+.copy::after {
+  content: "";
+  background: url(/joao-batista/lp-dizimo/img/logos/ego.png);
+  width: 93px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: -12px;
+  right: 0px;
+}
