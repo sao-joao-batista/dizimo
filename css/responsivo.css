@@ -83,7 +83,7 @@
     top: 1091px;
   }
   .pastoral {
-    height: 2460px;
+    height: 2400px;
   }
   .pastoral img {
     margin: -240px 0px 140px 0px;
@@ -135,7 +135,7 @@
   .wave-2::before {
     background: url(/img/bg/wave-2-phone.svg) no-repeat;
     width: 100%;
-    top: 3590px;
+    top: 3470px;
   }
   .copy {
     text-align: center;
