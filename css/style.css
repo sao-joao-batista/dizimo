@@ -55,7 +55,7 @@
 .pastoral {
   background: linear-gradient(var(--azul1), var(--azul2)),
     url(/img/bg/conchas-bg.svg);
-  height: 100%;
+  height: 1800px;
   width: 100%;
   background-blend-mode: lighten;
 }
@@ -202,7 +202,7 @@
   position: absolute;
   width: 100%;
   height: 300px;
-  top: 2900px;
+  top: 2800px;
 }
 .footer {
   background-color: #4272c1;
