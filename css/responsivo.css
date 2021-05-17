@@ -19,11 +19,12 @@
   }
   .wave::before {
     background: url(/img/bg/wave-tablet.svg) no-repeat;
-    top: 822px;
+    top: 830px;
   }
   .pastoral {
     background: linear-gradient(var(--azul1), var(--azul2)),
       url(/img/bg/conchas-bg-tablet.svg);
+    height: 1650px;
   }
   .pastoral img {
     margin-top: -222px;
